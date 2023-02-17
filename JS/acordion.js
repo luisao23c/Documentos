@@ -1,4 +1,5 @@
 import {view_section as load_section} from './alerts.js';
+import {add_section} from './arreglos.js';
 let cont = 0;
 let button_view = null;
 let delete_button = 0;
@@ -45,6 +46,7 @@ async function create_acordion(title) {
   return_div.appendChild(div);
   return_div.id = "acordion_section" + cont;
   cont++;
+  //add_section(title);
   return return_div;
 }
 export async function drowpdown(id) {
