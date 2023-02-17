@@ -1,6 +1,34 @@
+div.accordion  p{
+  text-align: center;
+  font-weight: 400;
+  font-size: xx-large;
+  padding: 0px;
+  margin: 0px;
+}
+div.accordion  button{
+  width: 100px;
+  height: 35px;
+  color: #fff;
+  padding: 10px 25px;
+  font-weight: 300;
+  background: #81daf0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(255, 255, 255, 0.1),
+   4px 4px 5px 0px rgba(255, 254, 254, 0.1);
+  outline: none;
+  border: 0px;
+
+}
+
+
+
 .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: #ade4ee;
+    color: #000000;
     cursor: pointer;
     padding: 18px;
     border: none;
@@ -10,9 +38,13 @@
     font-weight: bold;
     transition: 0.4s;
   }
-  
+  body{
+    margin: 0px;
+    padding: 0px;
+    
+  }
   .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #81daf0;
   }
   
   .accordion:after {
